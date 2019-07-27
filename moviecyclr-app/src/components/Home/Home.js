@@ -1,10 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Home.css';
 
 
-class Home extends Component {
+class Home extends React.Component {
     state = {
 
+
+    }
         render() {
             return(
                 <div>
@@ -13,7 +15,7 @@ class Home extends Component {
             )
         }
 
-    }
+    
 
 
 }
